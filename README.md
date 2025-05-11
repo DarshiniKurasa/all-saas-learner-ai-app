@@ -1,63 +1,117 @@
-# Getting Started
+# Sunbird ALL - Assisted Language Learning Platform
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+## 🌟 About Sunbird ALL
 
-This is a boilerplate application for use across **Developers** based on React.
+Sunbird ALL (Assisted Language Learning) is a powerful building block designed to help learners—both adults and children—achieve language proficiency through interactive exercises, speech recognition, and personalized feedback. The platform leverages modern technologies to create an engaging, accessible learning experience.
 
-### About this repository
+![Sunbird ALL Platform](https://raw.githubusercontent.com/tekdi/all-saas-learner-ai-app/main/public/logo192.png)
 
-The code has been set up with the following items in place:
+## 🚀 Current Project Focus: Offline ASR Integration
 
--   ESLint
--   Prettier
--   A suggested folder structure for all applications for views, store, routes and components.
--   Redux-Saga + Redux Toolkit
--   React Router DOM v6
--   Material UI for React v5 with basic theme and capability to work with external CSS/SCSS.
+We're currently enhancing the platform by integrating **Offline Automated Speech Recognition (ASR)** capabilities to:
 
-**Please note that the structure to open to further documentation, alterations and suggestions, if need be.**
+- Improve accessibility for learners in low-connectivity regions
+- Reduce dependency on cloud-based speech services
+- Lower infrastructure and operational costs
+- Enable real-time feedback even without internet access
 
-## Available Scripts
+### Key Features Being Developed
 
-Clone the Repo
+- ✅ Offline ASR with ≥90% accuracy across multiple languages
+- ✅ Seamless integration with the existing platform architecture
+- ✅ Cross-platform support (Web, Mobile)
+- ✅ Real-time pronunciation feedback
+- ✅ Containerized deployment for easy setup
 
-### `git clone https://github.com/sufyan468/reactjs-boilerplate-material-ui.git`
+## 🔧 Technology Stack
 
-After cloning the repo | In the project directory, you can run to install **Node Modules** :
+- **Frontend**: React, React Native, Material UI
+- **Backend**: Python with RESTful APIs
+- **ASR Options**: Vosk, DeepSpeech, Whisper.cpp
+- **Deployment**: Docker, CI/CD pipelines
+- **Testing**: Jest, Python unittest
 
-### `npm i`
+## 📋 Getting Started
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
+- Node.js (v14 or higher)
+- npm or yarn
+- Python 3.8+
+- Docker (optional, for containerized development)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tekdi/all-saas-learner-ai-app.git
+   cd all-saas-learner-ai-app
+   ```
 
-### `npm test`
+2. Install frontend dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-### `npm build`
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend Setup (for ASR)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*Detailed instructions coming soon as part of the offline ASR integration*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🤝 How to Contribute
 
-### `npm eject`
+We welcome contributions from the community! If you're interested in contributing to the Sunbird ALL platform, particularly the offline ASR enhancement:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Check the [Issues](https://github.com/tekdi/all-saas-learner-ai-app/issues) tab for open tasks
+2. Comment on an issue you'd like to work on
+3. Fork the repository
+4. Create a new branch (`git checkout -b feature/amazing-feature`)
+5. Make your changes
+6. Commit your changes (`git commit -m 'Add some amazing feature'`)
+7. Push to the branch (`git push origin feature/amazing-feature`)
+8. Open a Pull Request
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Contribution Guidelines
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Follow the existing code style and conventions
+- Write clear, descriptive commit messages
+- Include tests for new features when applicable
+- Update documentation as needed
+- Be respectful and constructive in communications
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📚 Documentation
+
+For more detailed information about the Sunbird ALL platform, refer to:
+
+- [ALL Services Documentation](https://github.com/tekdi/all-saas-learner-ai-app)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgements
+
+- Thanks to all contributors who have helped shape this project
+- Special thanks to the mentors providing guidance through the C4GT program
+
+## 📞 Contact
+
+For questions or more information, please reach out to the project maintainers or join the project communication channels.
+
+---
+
+*This README is continuously improved. Suggestions are welcome!*
